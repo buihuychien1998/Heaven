@@ -25,7 +25,7 @@
         android:testOnly="true"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="com.labrace.heaven.activity.SplashActivity"
+            android:name="com.mteam.heaven.activity.SplashActivity"
             android:configChanges="orientation|screenSize"
             android:label="Heaven"
             android:screenOrientation="portrait"
@@ -37,14 +37,14 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.labrace.heaven.activity.MainNavActivity"
+            android:name="com.mteam.heaven.activity.MainNavActivity"
             android:configChanges="orientation|screenSize"
             android:label="@string/title_activity_patient_list"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" >
         </activity>
         <activity
-            android:name="com.labrace.heaven.activity.LoginActivity"
+            android:name="com.mteam.heaven.activity.LoginActivity"
             android:configChanges="orientation|screenSize"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar.FullScreen" >

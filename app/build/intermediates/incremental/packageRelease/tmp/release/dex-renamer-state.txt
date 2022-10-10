@@ -1,0 +1,4 @@
+#Tue Oct 11 00:59:20 ICT 2022
+base.0=C\:\\Users\\Admin\\AndroidStudioProjects\\Heavent\\app\\build\\intermediates\\dex\\release\\out\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

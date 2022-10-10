@@ -6,88 +6,88 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="21"
-8-->E:\Toprate\Heaven\app\src\main\AndroidManifest.xml
+8-->C:\Users\Admin\AndroidStudioProjects\Heavent\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="33" />
-9-->E:\Toprate\Heaven\app\src\main\AndroidManifest.xml
+9-->C:\Users\Admin\AndroidStudioProjects\Heavent\app\src\main\AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-11-->E:\Toprate\Heaven\app\src\main\AndroidManifest.xml:6:5-80
-11-->E:\Toprate\Heaven\app\src\main\AndroidManifest.xml:6:22-77
+11-->C:\Users\Admin\AndroidStudioProjects\Heavent\app\src\main\AndroidManifest.xml:6:5-80
+11-->C:\Users\Admin\AndroidStudioProjects\Heavent\app\src\main\AndroidManifest.xml:6:22-77
 12    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-12-->E:\Toprate\Heaven\app\src\main\AndroidManifest.xml:7:5-81
-12-->E:\Toprate\Heaven\app\src\main\AndroidManifest.xml:7:22-78
+12-->C:\Users\Admin\AndroidStudioProjects\Heavent\app\src\main\AndroidManifest.xml:7:5-81
+12-->C:\Users\Admin\AndroidStudioProjects\Heavent\app\src\main\AndroidManifest.xml:7:22-78
 13    <uses-permission android:name="android.permission.INTERNET" />
-13-->E:\Toprate\Heaven\app\src\main\AndroidManifest.xml:8:5-67
-13-->E:\Toprate\Heaven\app\src\main\AndroidManifest.xml:8:22-64
+13-->C:\Users\Admin\AndroidStudioProjects\Heavent\app\src\main\AndroidManifest.xml:8:5-67
+13-->C:\Users\Admin\AndroidStudioProjects\Heavent\app\src\main\AndroidManifest.xml:8:22-64
 14    <uses-permission android:name="android.permission.VIBRATE" />
-14-->[com.wdullaer:materialdatetimepicker:2.3.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\d0644435adf6baca35f5e6761f0ac834\jetified-materialdatetimepicker-2.3.0\AndroidManifest.xml:26:5-66
-14-->[com.wdullaer:materialdatetimepicker:2.3.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\d0644435adf6baca35f5e6761f0ac834\jetified-materialdatetimepicker-2.3.0\AndroidManifest.xml:26:22-63
+14-->[com.wdullaer:materialdatetimepicker:2.3.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\b9ca84e5fbd48ca1f67b7d7ea16e1cf5\jetified-materialdatetimepicker-2.3.0\AndroidManifest.xml:26:5-66
+14-->[com.wdullaer:materialdatetimepicker:2.3.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\b9ca84e5fbd48ca1f67b7d7ea16e1cf5\jetified-materialdatetimepicker-2.3.0\AndroidManifest.xml:26:22-63
 15    <uses-permission android:name="com.android.vending.BILLING" />
 15-->[com.android.billingclient:billing:5.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\467e2c15427d97ac3b6fccf507e7510a\jetified-billing-5.0.0\AndroidManifest.xml:10:5-67
 15-->[com.android.billingclient:billing:5.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\467e2c15427d97ac3b6fccf507e7510a\jetified-billing-5.0.0\AndroidManifest.xml:10:22-64
 16
 17    <application
-17-->E:\Toprate\Heaven\app\src\main\AndroidManifest.xml:10:5-41:19
+17-->C:\Users\Admin\AndroidStudioProjects\Heavent\app\src\main\AndroidManifest.xml:10:5-41:19
 18        android:allowBackup="true"
-18-->E:\Toprate\Heaven\app\src\main\AndroidManifest.xml:11:9-35
+18-->C:\Users\Admin\AndroidStudioProjects\Heavent\app\src\main\AndroidManifest.xml:11:9-35
 19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 19-->[androidx.core:core:1.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\45ca2b27b5a8d2aecb4ee89b6457658f\core-1.0.0\AndroidManifest.xml:22:18-86
 20        android:debuggable="true"
 21        android:icon="@mipmap/ic_ducky"
-21-->E:\Toprate\Heaven\app\src\main\AndroidManifest.xml:12:9-40
+21-->C:\Users\Admin\AndroidStudioProjects\Heavent\app\src\main\AndroidManifest.xml:12:9-40
 22        android:label="Heaven"
-22-->E:\Toprate\Heaven\app\src\main\AndroidManifest.xml:13:9-31
+22-->C:\Users\Admin\AndroidStudioProjects\Heavent\app\src\main\AndroidManifest.xml:13:9-31
 23        android:supportsRtl="true"
-23-->E:\Toprate\Heaven\app\src\main\AndroidManifest.xml:14:9-35
+23-->C:\Users\Admin\AndroidStudioProjects\Heavent\app\src\main\AndroidManifest.xml:14:9-35
 24        android:testOnly="true"
 25        android:theme="@style/AppTheme" >
-25-->E:\Toprate\Heaven\app\src\main\AndroidManifest.xml:15:9-40
+25-->C:\Users\Admin\AndroidStudioProjects\Heavent\app\src\main\AndroidManifest.xml:15:9-40
 26        <activity
-26-->E:\Toprate\Heaven\app\src\main\AndroidManifest.xml:16:9-27:20
-27            android:name="com.labrace.heaven.activity.SplashActivity"
-27-->E:\Toprate\Heaven\app\src\main\AndroidManifest.xml:17:13-70
+26-->C:\Users\Admin\AndroidStudioProjects\Heavent\app\src\main\AndroidManifest.xml:16:9-27:20
+27            android:name="com.mteam.heaven.activity.SplashActivity"
+27-->C:\Users\Admin\AndroidStudioProjects\Heavent\app\src\main\AndroidManifest.xml:17:13-68
 28            android:configChanges="orientation|screenSize"
-28-->E:\Toprate\Heaven\app\src\main\AndroidManifest.xml:21:13-59
+28-->C:\Users\Admin\AndroidStudioProjects\Heavent\app\src\main\AndroidManifest.xml:21:13-59
 29            android:label="Heaven"
-29-->E:\Toprate\Heaven\app\src\main\AndroidManifest.xml:18:13-35
+29-->C:\Users\Admin\AndroidStudioProjects\Heavent\app\src\main\AndroidManifest.xml:18:13-35
 30            android:screenOrientation="portrait"
-30-->E:\Toprate\Heaven\app\src\main\AndroidManifest.xml:20:13-49
+30-->C:\Users\Admin\AndroidStudioProjects\Heavent\app\src\main\AndroidManifest.xml:20:13-49
 31            android:theme="@style/AppTheme.NoActionBar.FullScreen" >
-31-->E:\Toprate\Heaven\app\src\main\AndroidManifest.xml:19:13-67
+31-->C:\Users\Admin\AndroidStudioProjects\Heavent\app\src\main\AndroidManifest.xml:19:13-67
 32            <intent-filter>
-32-->E:\Toprate\Heaven\app\src\main\AndroidManifest.xml:22:13-26:29
+32-->C:\Users\Admin\AndroidStudioProjects\Heavent\app\src\main\AndroidManifest.xml:22:13-26:29
 33                <action android:name="android.intent.action.MAIN" />
-33-->E:\Toprate\Heaven\app\src\main\AndroidManifest.xml:23:17-68
-33-->E:\Toprate\Heaven\app\src\main\AndroidManifest.xml:23:25-66
+33-->C:\Users\Admin\AndroidStudioProjects\Heavent\app\src\main\AndroidManifest.xml:23:17-68
+33-->C:\Users\Admin\AndroidStudioProjects\Heavent\app\src\main\AndroidManifest.xml:23:25-66
 34
 35                <category android:name="android.intent.category.LAUNCHER" />
-35-->E:\Toprate\Heaven\app\src\main\AndroidManifest.xml:25:17-76
-35-->E:\Toprate\Heaven\app\src\main\AndroidManifest.xml:25:27-74
+35-->C:\Users\Admin\AndroidStudioProjects\Heavent\app\src\main\AndroidManifest.xml:25:17-76
+35-->C:\Users\Admin\AndroidStudioProjects\Heavent\app\src\main\AndroidManifest.xml:25:27-74
 36            </intent-filter>
 37        </activity>
 38        <activity
-38-->E:\Toprate\Heaven\app\src\main\AndroidManifest.xml:28:9-34:20
-39            android:name="com.labrace.heaven.activity.MainNavActivity"
-39-->E:\Toprate\Heaven\app\src\main\AndroidManifest.xml:29:13-71
+38-->C:\Users\Admin\AndroidStudioProjects\Heavent\app\src\main\AndroidManifest.xml:28:9-34:20
+39            android:name="com.mteam.heaven.activity.MainNavActivity"
+39-->C:\Users\Admin\AndroidStudioProjects\Heavent\app\src\main\AndroidManifest.xml:29:13-69
 40            android:configChanges="orientation|screenSize"
-40-->E:\Toprate\Heaven\app\src\main\AndroidManifest.xml:33:13-59
+40-->C:\Users\Admin\AndroidStudioProjects\Heavent\app\src\main\AndroidManifest.xml:33:13-59
 41            android:label="@string/title_activity_patient_list"
-41-->E:\Toprate\Heaven\app\src\main\AndroidManifest.xml:30:13-64
+41-->C:\Users\Admin\AndroidStudioProjects\Heavent\app\src\main\AndroidManifest.xml:30:13-64
 42            android:screenOrientation="portrait"
-42-->E:\Toprate\Heaven\app\src\main\AndroidManifest.xml:32:13-49
+42-->C:\Users\Admin\AndroidStudioProjects\Heavent\app\src\main\AndroidManifest.xml:32:13-49
 43            android:theme="@style/AppTheme.NoActionBar" >
-43-->E:\Toprate\Heaven\app\src\main\AndroidManifest.xml:31:13-56
+43-->C:\Users\Admin\AndroidStudioProjects\Heavent\app\src\main\AndroidManifest.xml:31:13-56
 44        </activity>
 45        <activity
-45-->E:\Toprate\Heaven\app\src\main\AndroidManifest.xml:35:9-40:20
-46            android:name="com.labrace.heaven.activity.LoginActivity"
-46-->E:\Toprate\Heaven\app\src\main\AndroidManifest.xml:36:13-69
+45-->C:\Users\Admin\AndroidStudioProjects\Heavent\app\src\main\AndroidManifest.xml:35:9-40:20
+46            android:name="com.mteam.heaven.activity.LoginActivity"
+46-->C:\Users\Admin\AndroidStudioProjects\Heavent\app\src\main\AndroidManifest.xml:36:13-67
 47            android:configChanges="orientation|screenSize"
-47-->E:\Toprate\Heaven\app\src\main\AndroidManifest.xml:39:13-59
+47-->C:\Users\Admin\AndroidStudioProjects\Heavent\app\src\main\AndroidManifest.xml:39:13-59
 48            android:screenOrientation="portrait"
-48-->E:\Toprate\Heaven\app\src\main\AndroidManifest.xml:38:13-49
+48-->C:\Users\Admin\AndroidStudioProjects\Heavent\app\src\main\AndroidManifest.xml:38:13-49
 49            android:theme="@style/AppTheme.NoActionBar.FullScreen" >
-49-->E:\Toprate\Heaven\app\src\main\AndroidManifest.xml:37:13-67
+49-->C:\Users\Admin\AndroidStudioProjects\Heavent\app\src\main\AndroidManifest.xml:37:13-67
 50        </activity>
 51
 52        <meta-data
