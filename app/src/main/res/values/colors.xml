@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#009688</color>
+    <color name="colorPrimaryDark">#00796B</color>
+    <color name="colorAccent">#8BC34A</color>
+
+    <!-- Splash screen -->
+    <color name="splash_app_name">#1927A4</color>
+    <color name="autumn_app_name">#CC5404</color>
+    <color name="autumn_yellow_name">#F5BD25</color>
+    <color name="autumn_pumpkin_name">#FB7C1C</color>
+    <color name="autumn_flavescent_name">#FDEA8B</color>
+    <color name="spring_green_name">#135908</color>
+    <color name="summer_green_name">#E3F272</color>
+    <color name="green_name">#0C4004</color>
+    <color name="green_name_background">#9ABF11</color>
+
+    <color name="photo_mask">#AA808080</color>
+</resources>
