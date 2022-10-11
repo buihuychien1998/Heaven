@@ -1,7 +1,7 @@
-#Tue Oct 11 00:49:10 ICT 2022
-base.0=C\:\\Users\\Admin\\AndroidStudioProjects\\Heavent\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\out\\classes.dex
+#Tue Oct 11 16:41:43 ICT 2022
+base.0=E\:\\Toprate\\Heaven\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\out\\classes.dex
 path.1=classes.dex
 renamed.1=classes2.dex
 path.0=classes.dex
 renamed.0=classes.dex
-base.1=C\:\\Users\\Admin\\AndroidStudioProjects\\Heavent\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\out\\classes.dex
+base.1=E\:\\Toprate\\Heaven\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\out\\classes.dex

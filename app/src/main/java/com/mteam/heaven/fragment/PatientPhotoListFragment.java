@@ -8,6 +8,7 @@ import android.net.Uri;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.os.Environment;
+import android.os.Parcelable;
 import android.provider.MediaStore;
 import android.util.Log;
 import android.view.LayoutInflater;
@@ -86,6 +87,7 @@ public class PatientPhotoListFragment extends Fragment {
     private BillingClient billingClient;
 
     final List<SkuDetails> skuDetailsList = new ArrayList<>();
+    private PatientImagesAdapter patientImagesAdapter;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
@@ -101,10 +103,11 @@ public class PatientPhotoListFragment extends Fragment {
                 .setListener((billingResult, list) -> {
                     if (billingResult.getResponseCode() == BillingClient.BillingResponseCode.OK && list != null) {
                         for (Purchase purchase : list) {
-                            if (purchase.getPurchaseState() == Purchase.PurchaseState.PURCHASED) {
+                            if (purchase.getPurchaseState() == Purchase.PurchaseState.PURCHASED && patientImagesAdapter != null && getActivity() != null) {
                                 handlePurchase(purchase);
-                                Toast.makeText(activity.getApplicationContext(), activity.getResources().getString(R.string.purchase_successful), Toast.LENGTH_SHORT).show();
-                                FragmentManager fragmentManager = activity.getSupportFragmentManager();
+                                Bundle bundle = new Bundle();
+                                bundle.putParcelable(Constants.IMAGE, patientImagesAdapter.getBitmapDrawable().getBitmap());
+                                ((MainNavActivity) getActivity()).openPage(Constants.SCREEN_PHOTO_DETAIL, bundle);
                             }
                         }
                         // Query for existing user purchases
@@ -220,7 +223,6 @@ public class PatientPhotoListFragment extends Fragment {
     }
 
 
-
     private void setUpData() {
         Bundle bundle = getArguments();
         patient = bundle.getParcelable(Constants.PATIENT);
@@ -231,7 +233,7 @@ public class PatientPhotoListFragment extends Fragment {
 
 //        loadImagesTask = new LoadImagesTask();
 //        loadImagesTask.executeOnExecutor(AsyncTask.THREAD_POOL_EXECUTOR);
-        PatientImagesAdapter patientImagesAdapter = new PatientImagesAdapter(getActivity(), patient.getImages(), textEmpty,
+        patientImagesAdapter = new PatientImagesAdapter(getActivity(), patient.getImages(), textEmpty,
                 torsoId, skuDetailsList, billingClient);
         imageListView.setAdapter(patientImagesAdapter);
     }
@@ -423,7 +425,7 @@ public class PatientPhotoListFragment extends Fragment {
                 patientImagesAdapter.getImages().add(0, image);
                 patient.setImages(patientImagesAdapter.getImages());
                 patientImagesAdapter.notifyItemInserted(0);
-                ((LinearLayoutManager)imageListView.getLayoutManager()).scrollToPositionWithOffset(0, 0);
+                ((LinearLayoutManager) imageListView.getLayoutManager()).scrollToPositionWithOffset(0, 0);
                 textEmpty.setVisibility(View.GONE);
             } else {
                 Toast.makeText(getActivity(), "Upload image failed!", Toast.LENGTH_SHORT).show();
@@ -527,8 +529,8 @@ public class PatientPhotoListFragment extends Fragment {
                     String imageName = sqlImages.get(i);
                     if (!ftpImages.contains(imageName)) {
                         // Try to delete the image which is not existing
-                        for (Image image: patient.getImages()) {
-                            if(image.getImagePath().equals(imageName)) {
+                        for (Image image : patient.getImages()) {
+                            if (image.getImagePath().equals(imageName)) {
                                 TorsoCADService.deleteImage(image);
                                 patient.getImages().remove(image);
                                 break;
@@ -537,7 +539,7 @@ public class PatientPhotoListFragment extends Fragment {
                     }
                 }
             }
-            PatientImagesAdapter patientImagesAdapter = new PatientImagesAdapter(getActivity(), patient.getImages(), textEmpty, torsoId,
+            patientImagesAdapter = new PatientImagesAdapter(getActivity(), patient.getImages(), textEmpty, torsoId,
                     skuDetailsList, billingClient);
             imageListView.setAdapter(patientImagesAdapter);
             activity.hideProgress();
