@@ -1,0 +1,112 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.mteam.heaven"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->E:\Toprate\Heaven\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->E:\Toprate\Heaven\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+11-->E:\Toprate\Heaven\app\src\main\AndroidManifest.xml:6:5-80
+11-->E:\Toprate\Heaven\app\src\main\AndroidManifest.xml:6:22-77
+12    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+12-->E:\Toprate\Heaven\app\src\main\AndroidManifest.xml:7:5-81
+12-->E:\Toprate\Heaven\app\src\main\AndroidManifest.xml:7:22-78
+13    <uses-permission android:name="android.permission.INTERNET" />
+13-->E:\Toprate\Heaven\app\src\main\AndroidManifest.xml:8:5-67
+13-->E:\Toprate\Heaven\app\src\main\AndroidManifest.xml:8:22-64
+14    <uses-permission android:name="com.android.vending.BILLING" />
+14-->E:\Toprate\Heaven\app\src\main\AndroidManifest.xml:9:5-66
+14-->E:\Toprate\Heaven\app\src\main\AndroidManifest.xml:9:22-64
+15    <uses-permission android:name="android.permission.VIBRATE" />
+15-->[com.wdullaer:materialdatetimepicker:2.3.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\a1f3f10567919cd5cd5307bb7a672024\jetified-materialdatetimepicker-2.3.0\AndroidManifest.xml:26:5-66
+15-->[com.wdullaer:materialdatetimepicker:2.3.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\a1f3f10567919cd5cd5307bb7a672024\jetified-materialdatetimepicker-2.3.0\AndroidManifest.xml:26:22-63
+16
+17    <application
+17-->E:\Toprate\Heaven\app\src\main\AndroidManifest.xml:11:5-43:19
+18        android:allowBackup="true"
+18-->E:\Toprate\Heaven\app\src\main\AndroidManifest.xml:12:9-35
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.5.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\4b391c66403fb8dfe2f61507230ef3fc\core-1.5.0\AndroidManifest.xml:24:18-86
+20        android:icon="@mipmap/ic_ducky"
+20-->E:\Toprate\Heaven\app\src\main\AndroidManifest.xml:13:9-40
+21        android:label="Heaven"
+21-->E:\Toprate\Heaven\app\src\main\AndroidManifest.xml:14:9-31
+22        android:supportsRtl="true"
+22-->E:\Toprate\Heaven\app\src\main\AndroidManifest.xml:15:9-35
+23        android:theme="@style/AppTheme" >
+23-->E:\Toprate\Heaven\app\src\main\AndroidManifest.xml:16:9-40
+24        <activity
+24-->E:\Toprate\Heaven\app\src\main\AndroidManifest.xml:17:9-29:20
+25            android:name="com.mteam.heaven.activity.SplashActivity"
+25-->E:\Toprate\Heaven\app\src\main\AndroidManifest.xml:18:13-68
+26            android:configChanges="orientation|screenSize"
+26-->E:\Toprate\Heaven\app\src\main\AndroidManifest.xml:22:13-59
+27            android:exported="true"
+27-->E:\Toprate\Heaven\app\src\main\AndroidManifest.xml:23:13-36
+28            android:label="Heaven"
+28-->E:\Toprate\Heaven\app\src\main\AndroidManifest.xml:19:13-35
+29            android:screenOrientation="portrait"
+29-->E:\Toprate\Heaven\app\src\main\AndroidManifest.xml:21:13-49
+30            android:theme="@style/AppTheme.NoActionBar.FullScreen" >
+30-->E:\Toprate\Heaven\app\src\main\AndroidManifest.xml:20:13-67
+31            <intent-filter>
+31-->E:\Toprate\Heaven\app\src\main\AndroidManifest.xml:24:13-28:29
+32                <action android:name="android.intent.action.MAIN" />
+32-->E:\Toprate\Heaven\app\src\main\AndroidManifest.xml:25:17-68
+32-->E:\Toprate\Heaven\app\src\main\AndroidManifest.xml:25:25-66
+33
+34                <category android:name="android.intent.category.LAUNCHER" />
+34-->E:\Toprate\Heaven\app\src\main\AndroidManifest.xml:27:17-76
+34-->E:\Toprate\Heaven\app\src\main\AndroidManifest.xml:27:27-74
+35            </intent-filter>
+36        </activity>
+37        <activity
+37-->E:\Toprate\Heaven\app\src\main\AndroidManifest.xml:30:9-36:20
+38            android:name="com.mteam.heaven.activity.MainNavActivity"
+38-->E:\Toprate\Heaven\app\src\main\AndroidManifest.xml:31:13-69
+39            android:configChanges="orientation|screenSize"
+39-->E:\Toprate\Heaven\app\src\main\AndroidManifest.xml:35:13-59
+40            android:label="@string/title_activity_patient_list"
+40-->E:\Toprate\Heaven\app\src\main\AndroidManifest.xml:32:13-64
+41            android:screenOrientation="portrait"
+41-->E:\Toprate\Heaven\app\src\main\AndroidManifest.xml:34:13-49
+42            android:theme="@style/AppTheme.NoActionBar" >
+42-->E:\Toprate\Heaven\app\src\main\AndroidManifest.xml:33:13-56
+43        </activity>
+44        <activity
+44-->E:\Toprate\Heaven\app\src\main\AndroidManifest.xml:37:9-42:20
+45            android:name="com.mteam.heaven.activity.LoginActivity"
+45-->E:\Toprate\Heaven\app\src\main\AndroidManifest.xml:38:13-67
+46            android:configChanges="orientation|screenSize"
+46-->E:\Toprate\Heaven\app\src\main\AndroidManifest.xml:41:13-59
+47            android:screenOrientation="portrait"
+47-->E:\Toprate\Heaven\app\src\main\AndroidManifest.xml:40:13-49
+48            android:theme="@style/AppTheme.NoActionBar.FullScreen" >
+48-->E:\Toprate\Heaven\app\src\main\AndroidManifest.xml:39:13-67
+49        </activity>
+50
+51        <meta-data
+51-->[com.android.billingclient:billing:5.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\55500d1aae190701cdc71cf9b4363053\jetified-billing-5.0.0\AndroidManifest.xml:13:9-15:37
+52            android:name="com.google.android.play.billingclient.version"
+52-->[com.android.billingclient:billing:5.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\55500d1aae190701cdc71cf9b4363053\jetified-billing-5.0.0\AndroidManifest.xml:14:13-73
+53            android:value="5.0.0" />
+53-->[com.android.billingclient:billing:5.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\55500d1aae190701cdc71cf9b4363053\jetified-billing-5.0.0\AndroidManifest.xml:15:13-34
+54
+55        <activity
+55-->[com.android.billingclient:billing:5.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\55500d1aae190701cdc71cf9b4363053\jetified-billing-5.0.0\AndroidManifest.xml:17:9-21:75
+56            android:name="com.android.billingclient.api.ProxyBillingActivity"
+56-->[com.android.billingclient:billing:5.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\55500d1aae190701cdc71cf9b4363053\jetified-billing-5.0.0\AndroidManifest.xml:18:13-78
+57            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+57-->[com.android.billingclient:billing:5.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\55500d1aae190701cdc71cf9b4363053\jetified-billing-5.0.0\AndroidManifest.xml:19:13-96
+58            android:exported="false"
+58-->[com.android.billingclient:billing:5.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\55500d1aae190701cdc71cf9b4363053\jetified-billing-5.0.0\AndroidManifest.xml:20:13-37
+59            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+59-->[com.android.billingclient:billing:5.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\55500d1aae190701cdc71cf9b4363053\jetified-billing-5.0.0\AndroidManifest.xml:21:13-72
+60    </application>
+61
+62</manifest>
